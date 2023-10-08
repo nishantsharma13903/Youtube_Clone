@@ -27,7 +27,7 @@ export default function PlayVideoContainer() {
         {/* buttons */}
         <div className="flex md:flex-row flex-col">
           <div className="md:w-[50%] w-full flex items-center mt-3">
-            <div className="">
+            <div className="w-[40px]">
               <img src={data.snippet.thumbnails.medium.url} alt="" className="h-[40px] w-[40px] rounded-full" />
             </div>
             <div className="mx-3">
@@ -36,9 +36,9 @@ export default function PlayVideoContainer() {
             </div>
             <div className="">
               <button className="bg-[#323130] px-6 py-2 rounded-full text-white mx-3 flex">
-                <i className="fa fa-bell-o mx-1"></i>
+                <i className="fa fa-bell-o mx-1 relative top-1"></i>
                 Subcribe
-                <i className="fa fa-angle-down mx-1"></i>
+                <i className="fa fa-angle-down mx-1 relative top-1"></i>
               </button>
             </div>
           </div>
