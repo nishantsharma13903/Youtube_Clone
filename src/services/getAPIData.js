@@ -1,5 +1,5 @@
 
-const apiKey = 'AIzaSyD1FdYa-Uz0KlOT-JI0Hnx6gwz2vE4w564';
+const apiKey = 'AIzaSyD1FdYa-Uz0KlOT-JI0Hnx6gwz2vE4w564e';
 const maxResults = 100;
 const url = `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&part=snippet,id&maxResults=${maxResults}`
 
